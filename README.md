@@ -15,6 +15,6 @@
  - [x] Adicionei uma função de atualizar o browser em 1,3 segundos após o game over
  - [x] Acrescentei algumas metas no html
  - [x] Converti as funções construtoras em class
-
+ - [x] Adicionei eventos de celular a pedidos de amigos, ontouchstart & ontouchend
 
 https://thales-eduardo.github.io/Flappy-Bird/
