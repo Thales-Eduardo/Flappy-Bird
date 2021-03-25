@@ -98,3 +98,9 @@ html,body{
     
     
 }
+
+@media (max-width: 350px){
+    .game-over{
+        width: 280px;
+    }
+}
