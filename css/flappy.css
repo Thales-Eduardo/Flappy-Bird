@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+[wm-flappy]{
+    margin: 35px;
+    position: relative;
+    border: 5px solid dodgerblue;
+    height: 97%;
+    width:  90%;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+.passaro{
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+
+.par-de-bareiras{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barreira .borda {
+    height: 30px;
+    width: 110px;
+    background: linear-gradient(90deg, #639301, #A5E83E);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.barreira .corpo {
+    height: 130px;
+    width: 90px;
+    background: linear-gradient(90deg, #639301, #A5E83E);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.game-over{
+    position: absolute;
+    z-index: 100;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.progresso{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 80px;
+    font-family: Pixel;
+    z-index: 1000;
+}
+
+@media (max-width: 300px){
+    [wm-flappy]{
+        margin: 0;
+        height: 667px;
+        width:  375px;
+        padding: 0;
+    }
+    .game-over{
+        width: 280px;
+    }
+    .passaro{
+        position: absolute;
+        width: 60px;
+        left: 45%;
+    }    
+    
+    
+}
