@@ -16,3 +16,5 @@
  - [x] Acrescentei algumas metas no html
  - [x] Converti as funções construtoras em class
 
+
+https://thales-eduardo.github.io/Flappy-Bird/
