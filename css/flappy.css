@@ -63,7 +63,10 @@ html,body{
 
 .game-over{
     position: absolute;
+    display: none;
     z-index: 100;
+    width: 800px;
+    height: 200px;
     margin: auto;
     bottom: 0;
     right: 0;
@@ -80,15 +83,16 @@ html,body{
     z-index: 1000;
 }
 
-@media (max-width: 300px){
+@media (max-width: 600px){
     [wm-flappy]{
         margin: 0;
-        height: 667px;
-        width:  375px;
+        height: 100%;
+        width:  100%;
         padding: 0;
     }
     .game-over{
         width: 280px;
+        height: 100px;
     }
     .passaro{
         position: absolute;

@@ -160,6 +160,7 @@ class FlappyBird {
                 if (colidiu(passaro, barreiras)) {
                     clearInterval(temporizador)
                     img.src = "imgs/go.png"
+                    img.style.display ="block"
                     setInterval(() => {
                         window.location.reload()
                     }, 1300)
