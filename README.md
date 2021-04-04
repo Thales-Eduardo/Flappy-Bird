@@ -17,4 +17,4 @@
  - [x] Converti as funções construtoras em class.
  - [x] Adicionei eventos de celular a pedidos de amigos, ontouchstart & ontouchend.
 
-                                      https://thales-eduardo.github.io/Flappy-Bird/
+     https://thales-eduardo.github.io/Flappy-Bird/
